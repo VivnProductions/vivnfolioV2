@@ -2,11 +2,8 @@ backend:
   name: github
   repo: VivnProductions/vivnfolioV2
   branch: main
-  auth_type: pkce
-  base_url: https://decap-cms-github-oauth.vercel.app
-
-
-
+  base_url: http://localhost:3000
+  auth_endpoint: /auth
 
 media_folder: "public/images/uploads"
 public_folder: "/images/uploads"
@@ -22,6 +19,3 @@ collections:
       - { label: "Publish Date", name: "pubDate", widget: "datetime" }
       - { label: "Description", name: "description", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
-
-
-

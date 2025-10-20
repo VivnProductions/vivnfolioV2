@@ -3,8 +3,8 @@ backend:
   repo: VivnProductions/vivnfolioV2
   branch: main
   auth_type: implicit
-  app_id: Ov23li8K9aQZ8d1S5X02
-  base_url: https://api.netlify.com
+  app_id:  Ov23li8K9aQZ8d1S5X02
+  base_url: https://decap-oauth.netlify.app
   site_domain: vivnproductions.netlify.app
 
 

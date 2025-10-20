@@ -2,10 +2,9 @@ backend:
   name: github
   repo: VivnProductions/vivnfolioV2
   branch: main
-  auth_type: implicit
-  app_id: Ov23li8K9aQZ8d1S5X02
-  base_url: https://decap-oauth.netlify.app
-  site_domain: vivnproductions.netlify.app
+  auth_type: pkce
+  base_url: https://decap-cms-github-oauth.vercel.app
+
 
 
 

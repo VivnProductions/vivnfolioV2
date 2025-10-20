@@ -2,6 +2,9 @@ backend:
   name: github
   repo: VivnProductions/vivnfolioV2
   branch: main
+  auth_type: implicit
+  base_url: https://api.netlify.com
+  site_domain: vivnproductions.netlify.app
 
 media_folder: "public/images/uploads"
 public_folder: "/images/uploads"
